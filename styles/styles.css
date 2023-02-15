@@ -1,0 +1,92 @@
+/* **************** Element selector **************** */
+
+body {
+    background-color: #F5F1DA;
+}
+
+header {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    height: 70px;
+    background-color: #495664;
+    color: white;
+    margin: 4px;
+    border: 1px solid black;
+}
+
+/* **************** Class selector **************** */
+
+.container {
+    background-color: #333C4A;
+    border-radius: 25px;
+    padding: 20px;
+    width: 30%;
+    border: 3px solid #F5F1DA;
+}
+
+.operatorButton {
+    background-color: #F7B633;
+}
+
+/* **************** Id selector **************** */
+
+#display {
+    background-color: #F2F3EE;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto 20px;
+    width: 100%;
+}
+
+#calculateButton {
+    background-color: #F58B54;
+    width: 230%;
+}
+
+#acButton {
+    background-color: #CF0A2C;
+}
+
+/* **************** Media **************** */
+
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}
+
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 50%;
+    }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .container {
+        width: 40%;
+    }
+}
